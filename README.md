@@ -8,7 +8,7 @@ This repo contains:
 
 Итоговый [датасет](https://www.kaggle.com/datasets/anastasiadrozhzhina/ru-1985-2023-40k-songscsv) для работы объёмом 40 тысяч песен был получен экстрактивной выборкой русскоязычных данных из мультиязычного [датафрейма](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information) на 5 млн песен. В итоговый датасет вошло 25% процентов (>Q3 по прослушиваниям) всех русскоязычных данных, извлеченных из мультиязычного датасета. [Ссылка](https://www.kaggle.com/datasets/anastasiadrozhzhina/ru-songs-1970-2023) на датасет в 160 тысяч песен 
 
-В репозитории представлены так же .ipynb тетради с кодом по извлечению данных, лемматизации и подсчёту метрик лексического разнообразия. 
+В репозитории представлены так же .ipynb тетради с кодом по [извлечению данных](https://github.com/Drozhzhinastya/ru_songs_ld/blob/main/data_extract.ipynb), [лемматизации](https://github.com/Drozhzhinastya/ru_songs_ld/blob/main/preproc.ipynb) и подсчёту [метрик лексического разнообразия](https://github.com/Drozhzhinastya/ru_songs_ld/blob/main/lexical_diversity_1.ipynb). 
 
 Метрики лексического разнообразия песен были подсчитаны с помощью модуля [LexicalRichness](https://pypi.org/project/lexicalrichness/)
 
